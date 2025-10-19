@@ -184,3 +184,11 @@
 .add-todo-container button:active {
   background: #9ce7dd;
 }
+
+@media (max-width: 600px) {
+  .app {
+    min-width: auto;
+    height: 90vh;
+    padding: 1rem 1rem 0 1rem;
+  }
+}
