@@ -1,0 +1,22 @@
+.footer {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+
+  border-top: 1px solid #e5e5e5;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  z-index: 100;
+  background-color: inherit;
+}
+
+.footer button {
+  background: none;
+  border: none;
+  color: #666; 
+  font-size: 16px;
+  cursor: pointer;
+
+}
